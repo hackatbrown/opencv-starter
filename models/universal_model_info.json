@@ -1,0 +1,15 @@
+{
+  "model_type": "universal_cnn",
+  "emotions": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "total_classes": 7,
+  "dataset": "fer_only",
+  "accuracy": 0.5557258129119873
+}
