@@ -1,5 +1,17 @@
 # OpenCV Starter Pack
 
+# Table of Contents
+1. [Overview](#overview)
+2. [What is OpenCV](#what-is-opencv)
+3. [Goal](#goal)
+4. [Quick Start](#quick-start)
+5. [Project Structure](#project-structure)
+6. [Demo](#1-demo-module-demopy)
+7. [Model](#2-model-module-modelpy)
+8. [Training](#3-training-module-trainpy)
+9. [Preprocessing](#4-preprocessing-module-preprocesspy)
+10. [Resources](#-resources)
+
 ## Overview
 Hey hackers!
 
