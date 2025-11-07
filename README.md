@@ -32,17 +32,31 @@ This starter pack should teach you how to use OpenCV along with a machine learni
 
 We recommend the use of Anaconda to create and manage your virtual environment. For information on how to download Anaconda and set up a Conda environment, look [here](https://s4.ad.brown.edu/python2020/software.html). You can stop before the **Channels** section. 
 
-### 1. Install Dependencies
+### 1. Clone this repo
+```bash
+git clone https://github.com/hackatbrown/opencv-starter.git
+```
+
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Demo
+### *!! DISCLAIMER FOR MAC USERS !!*
+If you have issues installing the dependencies on MacOS, try the following commands to set up a virtual environment and downgrade your Python installation to a supported version for Tensorflow:
+```bash
+brew install python@3.11
+python3.11 -m venv ~/.venvs/opencv-starter
+source ~/.venvs/opencv-starter/bin/activate
+pip install -r ./requirements.txt
+```
+
+### 3. Run the Demo
 ```bash
 python demo.py 
 ```
 
-## 3. Train with your own data (optional)
+## 4. Train with your own data (optional)
 If you would like to use the model in this database to detect your own custom emotions, upload your data as images in the same format as the file structure below under the data/ folder. This splits your data into a training set and testing set for the model – it is common to use an 80/20 split for the number of images that goes into each set, with more images going into training. The pretrained model included in this codebase was trained on the FER dataset, a public collection of facial expression images, organized by facial expression. If you want to use it yourself, you can find that [here](https://www.kaggle.com/datasets/msambare/fer2013).
 
 ## Project Structure
