@@ -313,13 +313,13 @@ def preprocess_image(img_path, img_size=(48, 48), ...):
 
 ## 📚 Resources
 
-- [OpenCV Documentation](https://docs.opencv.org/)
+- [OpenCV Documentation](https://docs.opencv.org/4.x/)
 - [TensorFlow/Keras Guide](https://www.tensorflow.org/guide/keras)
 
-## Used for this guide
-- https://fuyofulo.medium.com/real-time-facial-emotion-recognition-using-deep-learning-and-opencv-30a331d39cf1
-- https://learnopencv.com/facial-emotion-recognition/
-- https://www.kaggle.com/code/syedmaazml/facial-emotion-recognition-using-cnn/notebook#Building-the-CNN-Model
+## Sources
+- [Article about emotion recognition](https://fuyofulo.medium.com/real-time-facial-emotion-recognition-using-deep-learning-and-opencv-30a331d39cf1)
+- [OpenCV article about facial emotion recognition](https://learnopencv.com/facial-emotion-recognition/)
+- [Kaggle notebook for building a CNN](https://www.kaggle.com/code/syedmaazml/facial-emotion-recognition-using-cnn/notebook#Building-the-CNN-Model)
 
 ## License
 MIT License - feel free to use this in your projects!
